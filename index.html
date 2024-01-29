@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nori</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="letter_con">
+        <div class="con">
+            <img class="env" onclick="envelope()" onmouseover="envelope2(this)" onmouseout="envelope1(this)"
+                draggable="false" src="images/envelope_close.png" alt="">
+        </div>
+        <div class="letter">
+            <div class="arrow">&#8594;</div>
+            <img class="flower" draggable="false" src="images/flowers.png" alt="">
+            <p class="hvd">happy valentine's day!</p>
+        </div>
+        <div class="hearts" onclick="changeHeartColors()">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <div class="hearts2" onclick="changeHeartColors2()">
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+            <div class="heart2"></div>
+        </div>
+
+        <div class="home">
+            <img class="anim" src="images/anim.gif" alt="">
+        </div>
+
+        <div class="audioContainer">
+            <audio id="myAudio" controls loop>
+                <source src="audio/aots.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
